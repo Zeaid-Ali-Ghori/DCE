@@ -41,3 +41,8 @@ def decodeLZ(FileIn, FileOut):
             code += 1
     coded_file.close()
     decoded_file.close()
+
+encodeLZ('ex.txt','new.txt') 
+ 
+decodeLZ('new.txt','decode.txt') 
+ 
